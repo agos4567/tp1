@@ -1,10 +1,10 @@
-###¿Por qué es conveniente incluirlo?
+### ¿Por qué es conveniente incluirlo?
 
 
 Por que no todos los archivos y carpetas son necesarios de gestionar a partir del sistema de control de versiones. Hay código que no necesitas enviar a Git, ya sea porque sea privado para un desarrollador en concreto y no lo necesiten (o lo deban) conocer el resto de las personas. Pueden ser también archivos binarios con datos que no necesitas mantener en el control de versiones, como diagramas, instaladores de software, etc.
 
 
-###¿Cuándo se debe hacer?
+### ¿Cuándo se debe hacer?
  
 se debe hacer al inicio del repositorio para tenerlo disponible en caso de necesitarlo.
 
@@ -18,7 +18,7 @@ se debe hacer al inicio del repositorio para tenerlo disponible en caso de neces
 
 
 
-###¿Cómo configuraría el archivo .gitignore?
+### ¿Cómo configuraría el archivo .gitignore?
 
 
 Para crear un archivo .gitignore local, crea un archivo de texto y asígnale el nombre ".gitignore" (recuerda incluir el . al principio). Luego, edita este archivo según sea necesario. Cada nueva línea debe incluir un archivo o carpeta adicional que quieras que Git lo ignore.
